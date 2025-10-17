@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beautified by MNL</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="logo.jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <header>
+    <a href="#home" class="logo">
+      <img src="logo.jpg" alt="Beautified by MNL Logo" />
+      <span>Beautified by MNL</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="slide fade-in">
+    <div class="content">
+      <div class="text-box">
+        <h2>BEAUTIFIED BY MNL</h2>
+        <p>
+          Transforming confidence through beauty. Whether it’s for your wedding, debut, or special event — 
+          we make sure you shine in every moment with timeless, elegant glam.
+        </p>
+        <a href="#services" class="btn">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="slide">
+    <div class="content">
+      <div class="text-box product-intro">
+        <h2>Our Services</h2>
+        <p>
+          From soft glam to full bridal transformations — we bring out your natural glow ✨
+        </p>
+        <p class="small-text">------------------------------------------------------------</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="product2.png" alt="Bridal Makeup" />
+          <h3>BRIDAL GLAM</h3>
+          <p>
+            Radiate beauty on your special day. A long-lasting, elegant look crafted to match your personality and wedding style.
+          </p>
+          <p class="price"> Price: ₱4,000 - ₱6,000</p>
+        </div>
+
+        <div class="product-card">
+          <img src="product1.jpg" alt="Event Makeup" />
+          <h3>EVENT MAKEUP</h3>
+          <p>
+            Perfect for debuts, proms, and parties. Be camera-ready and confident with a flawless glow that lasts all night.
+          </p>
+          <p class="price"> Price: ₱2,000 - ₱3,500</p>
+        </div>
+
+        <div class="product-card">
+          <img src="product3.jpg" alt="Photoshoot Makeup" />
+          <h3>PHOTOSHOOT GLAM</h3>
+          <p>
+            For editorial or portrait sessions — we create bold or minimal looks that capture your best angles under any light.
+          </p>
+          <p class="price"> Price: ₱2,500 - ₱4,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="slide">
+    <div class="content">
+      <div class="text-box">
+        <h2>About Beautified by MNL</h2>
+        <p>
+          Founded by <strong>MNL</strong>, a passionate makeup artist who believes beauty begins with confidence. 
+          With years of experience in bridal and event makeup, Beautified by MNL is dedicated to enhancing your 
+          features while keeping your natural charm.  
+          <br><br>
+          Each brushstroke is a touch of love, artistry, and empowerment — because every face tells a story.
+        </p>
+        <p class="signature">Beauty. Confidence. You.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="slide">
+    <div class="content">
+      <div class="text-box">
+        <h2>Contact Us</h2>
+        <p>We’d love to glam you up! Reach out to book your appointment or ask about our services 💖</p>
+
+        <div class="contact-info">
+          <p><strong>Phone:</strong> <a href="tel:09196018889">09196018889</a></p>
+          <p><strong>Instagram:</strong> <a href="https://instagram.com/beautifiedbymnl" target="_blank">@beautifiedbymnl</a></p>
+          <p><strong>Facebook:</strong> <a href="https://facebook.com/@beautifiedbymnl" target="_blank">@beautifiedbymnl</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Beautified by MNL. All Rights Reserved. Designed by Andrada.</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('.text-box', {
+      delay: 200,
+      distance: '50px',
+      duration: 1200,
+      easing: 'ease-out',
+      origin: 'bottom'
+    });
+
+    ScrollReveal().reveal('.product-card', {
+      delay: 300,
+      distance: '40px',
+      duration: 1000,
+      interval: 200,
+      origin: 'bottom'
+    });
+
+    ScrollReveal().reveal('.contact-info', {
+      delay: 300,
+      duration: 1000,
+      distance: '30px',
+      origin: 'bottom'
+    });
+  </script>
+</body>
+</html>
